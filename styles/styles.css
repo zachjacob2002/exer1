@@ -96,14 +96,14 @@ a:hover {
 }
 /* Add a background color and text color to the highlighted word */
 .highlight {
-  background-color: black;
+  background-color: #8e9ac4;
   color: green;
   padding: 2px; /* Add padding for better visual appearance */
   border-radius: 3px; /* Add rounded corners for better visual appearance */
 }
 /* Custom CSS for pastel colors */
 .container {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #a4c7d4; /* Light gray background */
   padding: 20px;
   border-radius: 10px; /* Rounded corners */
   margin-top: 20px;
