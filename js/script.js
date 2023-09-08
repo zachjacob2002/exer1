@@ -15,11 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   
   function displayMult() {
+  console.log("Multiply button clicked"); // Add this line to check if the function is called
   let firstNum = Number(document.getElementById('firstNum').innerHTML);
   let secondNum = Number(document.getElementById('secondNum').innerHTML);
   let product = firstNum * secondNum;
   document.getElementById("productanswer").innerHTML = `${firstNum} * ${secondNum}, equals to ${product}`;
-  }
+}
 
   document.getElementById('MultButton').addEventListener("click", displayMult);
   document.getElementById('SumButton').addEventListener("click", displaySum);
