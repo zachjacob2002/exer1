@@ -1,16 +1,96 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style headings */
 h1 {
-  background-color: #ff0000;
+  color: #333;
+  font-size: 36px;
+  margin: 20px 0;
 }
 
 h2 {
-  background-color: #0000FF;
+  color: #007acc;
+  font-size: 28px;
+  margin: 15px 0;
 }
 
 h3 {
-  background-color: #00FF00;
+  color: #009688;
+  font-size: 24px;
+  margin: 10px 0;
 }
 
+/* Style paragraphs */
+p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style lists */
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+li {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Style emphasis (italic) text */
 em {
-  background-color: #000000;
-  color: #ffffff;
+  font-style: italic;
+}
+
+/* Style buttons */
+input[type="button"] {
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="button"]:hover {
+  background-color: #005a9c;
+}
+
+/* Add some padding and spacing */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Style placeholders for answers */
+#sumanswer, #diffanswer, #productanswer {
+  font-weight: bold;
+}
+
+/* Style links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
