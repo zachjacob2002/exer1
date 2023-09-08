@@ -101,4 +101,19 @@ a:hover {
   padding: 2px; /* Add padding for better visual appearance */
   border-radius: 3px; /* Add rounded corners for better visual appearance */
 }
+/* Custom CSS for pastel colors */
+.container {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 20px;
+}
+
+h1, h2, h3, p {
+  background-color: #e0e0e0; /* Pastel gray background for headers and paragraphs */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
 
