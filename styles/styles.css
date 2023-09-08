@@ -94,3 +94,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* Add a background color and text color to the highlighted word */
+.highlight {
+  background-color: black;
+  color: green;
+  padding: 2px; /* Add padding for better visual appearance */
+  border-radius: 3px; /* Add rounded corners for better visual appearance */
+}
+
